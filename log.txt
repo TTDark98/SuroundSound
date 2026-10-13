@@ -1,0 +1,8 @@
+[2026-10-13] Project Review and Architectural Alignment
+- Reviewed Sound_to_Beat_Android_Blueprint_v1.pdf.
+- Fact-checked platform constraints: Google Play target SDK 36 requirement, SAF user file picking, AudioRecord/AudioTrack latency behavior, and native MediaCodec capabilities.
+- Confirmed Decision OD-01 (App Identity): App Title is "SurroundSound", Package ID is "com.surroundsound.app".
+- Confirmed Decision OD-05 & Export Formats: Compressed export supports native AAC/M4A alongside lossless WAV, with optional MP3.
+- Confirmed Decision OD-20 (Pad Behavior): Polyphonic / overlapping trigger playback.
+- Clarified Internal DSP Format (OD-03): Standard 44.1 kHz, 32-bit Float normalization [-1.0f, 1.0f] to prevent digital distortion/clipping during multi-layer mixing.
+- Created and updated implementationplan.txt with all 10 phases (Phase 0 to Phase 9) and milestone gates.
