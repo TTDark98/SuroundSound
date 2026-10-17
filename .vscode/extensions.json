@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "fwcd.kotlin",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "sonarsource.sonarlint-vscode",
+    "editorconfig.editorconfig",
+    "gruntfuggly.todo-tree",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

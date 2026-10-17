@@ -20,7 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bangtobeat.model.TrackId
-import com.example.bangtobeat.theme.*
+import com.example.bangtobeat.ui.theme.*
 
 @Composable
 fun LiveAuditionPads(

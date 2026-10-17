@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bangtobeat.model.BeatStyle
 import com.example.bangtobeat.model.Presets
-import com.example.bangtobeat.theme.*
+import com.example.bangtobeat.ui.theme.*
 
 @Composable
 fun GenreSelector(

@@ -32,7 +32,7 @@ import androidx.core.content.ContextCompat
 import androidx.navigation3.runtime.NavKey
 import com.example.bangtobeat.audio.AudioEngine
 import com.example.bangtobeat.model.*
-import com.example.bangtobeat.theme.*
+import com.example.bangtobeat.ui.theme.*
 import com.example.bangtobeat.ui.components.*
 import kotlinx.coroutines.delay
 

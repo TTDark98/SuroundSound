@@ -1,4 +1,4 @@
-package com.example.bangtobeat.theme
+package com.example.bangtobeat.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

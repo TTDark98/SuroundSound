@@ -1,4 +1,4 @@
-package com.example.bangtobeat
+package com.example.bangtobeat.navigation
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable

@@ -1,4 +1,4 @@
-package com.example.bangtobeat
+package com.example.bangtobeat.navigation
 
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable

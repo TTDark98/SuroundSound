@@ -7,8 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.bangtobeat.theme.BangToBeatTheme
-import com.example.bangtobeat.theme.StudioCarbon
+import com.example.bangtobeat.navigation.MainNavigation
+import com.example.bangtobeat.ui.theme.BangToBeatTheme
+import com.example.bangtobeat.ui.theme.StudioCarbon
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

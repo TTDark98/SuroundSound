@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bangtobeat.model.SampleMetadata
-import com.example.bangtobeat.theme.*
+import com.example.bangtobeat.ui.theme.*
 import kotlin.math.abs
 import kotlin.math.max
 
