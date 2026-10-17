@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:windowSoftInputMode="adjustResize"
-        android:theme="@style/Theme.BangToBeat">
+        android:theme="@style/Theme.SurroundSound">
         <activity
             android:name=".MainActivity"
             android:exported="true"

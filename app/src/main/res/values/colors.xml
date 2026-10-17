@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mossroom's Deep Hollow background (StudioTheme.kt), so the window behind Compose is
+         never a light flash before the first frame. -->
+    <color name="studio_background">#FF0E1710</color>
+    <color name="studio_ink">#FFE8EFDF</color>
+</resources>

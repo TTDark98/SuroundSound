@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.BangToBeat" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- The studio shell starts in Mossroom: no light flash at launch, and the bars are
+         re-styled from the theme tokens in MainScreen once Compose is up. -->
+    <style name="Theme.SurroundSound" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/studio_background</item>
+        <item name="android:colorBackground">@color/studio_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:textColorPrimary">@color/studio_ink</item>
+        <item name="android:textColorSecondary">@color/studio_ink</item>
+    </style>
 </resources>
