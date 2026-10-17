@@ -1,16 +1,37 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+.kotlin/
+build/
+/app/release/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine configuration — holds sdk.dir/ndk.dir, never commit it
 local.properties
+
+# Android Studio / IntelliJ. The IDE keeps device serials, absolute paths and
+# scratch state in here, so the whole directory stays out of the repo.
 .idea/
+*.iml
+
+# Build and package output
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+*.hprof.*
+
+# Signing material
+*.jks
+*.keystore
+keystore.properties
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.orig
+*.rej
+*.log

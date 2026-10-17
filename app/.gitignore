@@ -1,1 +1,5 @@
+# The root .gitignore only covers the repo root, so each module ignores its own build dir.
 /build
+/release
+*.apk
+*.aab

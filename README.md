@@ -59,16 +59,14 @@ font scaling are handled throughout.
 ## 🚀 Open and run
 
 1. Open **Android Studio**.
-2. **File > Open…** and choose:
-   ```
-   /home/tt/Desktop/SurroundSound
-   ```
+2. **File > Open…** and pick this repository's root folder — the one holding `settings.gradle.kts`.
 3. Let Gradle sync, pick a device or emulator, and **Run (▶)**.
 
 ## 🛠️ Command line
 
+From the repository root:
+
 ```bash
-cd /home/tt/Desktop/SurroundSound
 ./gradlew assembleDebug testDebugUnitTest
 ```
 
